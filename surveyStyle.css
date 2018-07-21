@@ -1,0 +1,104 @@
+body {
+  background-color: #a9d7d1;
+  font-family: 'Source Sans Pro', sans-serif;
+  min-width: 320px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#form-outer {
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin: auto;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 600;
+  margin: 5px;
+}
+
+#description {
+  text-align: center;
+  font-style: italic;
+}
+
+.rowTab {
+  padding: 6px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+  vertical-align: middle;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+#submit {
+  background-color: #59ace0;
+  border-radius: 4px;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+}
+
+#dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 845px) {
+  .input-field {
+    width: 80%;
+  }
+  select {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .labels {
+    width: 100%;
+    text-align: left;
+  }
+  .rightTab {
+    width: 80%;
+    float: left;
+  }
+  .input-field {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+}
